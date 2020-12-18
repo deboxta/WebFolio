@@ -366,9 +366,9 @@ header {
 
 .my-services {
   background-color: var(--clr-dark);
-  background-image: url(../img/Rectangle\ 3-4.png);
+  background-image: url(../img/working_environnement.jpg);
   background-size: cover;
-  /* background-blend-mode: multiply; */
+  background-blend-mode: multiply;
   color: var(--clr-light);
   text-align: center;
 }
@@ -473,6 +473,7 @@ header {
 }
 
 .portfolio__item {
+  z-index: 100;
   background: var(--clr-accent);
   overflow: hidden;
 }
@@ -489,7 +490,7 @@ header {
 }
 
 .portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
+.portfolio__item:focus .portfolio__img{
   transform: scale(1.2);
   opacity: .75;
 }
