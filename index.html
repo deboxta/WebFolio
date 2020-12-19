@@ -13,7 +13,7 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="shortcut-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <!-- Update here to change fonts -->
@@ -35,10 +35,10 @@
     </button>
     <nav class="nav">
       <ul class="nav__list">
-        <li class="nav__item"><a href="#home" class="nav__link">Accueil</a></li>
-        <li class="nav__item"><a href="#services" class="nav__link">Parcour</a></li>
-        <li class="nav__item"><a href="#about" class="nav__link">À propos</a></li>
-        <li class="nav__item"><a href="#work" class="nav__link">Mes projets</a></li>
+        <li class="nav__item"><a href="#home" data-after="Accueil" class="nav__link">Accueil</a></li>
+        <li class="nav__item"><a href="#services" data-after="Parcour" class="nav__link">Parcour</a></li>
+        <li class="nav__item"><a href="#about" data-after="À propos" class="nav__link">À propos</a></li>
+        <li class="nav__item"><a href="#work" data-after="Mes projets" class="nav__link">Mes projets</a></li>
       </ul>
     </nav>
   </header>
@@ -46,10 +46,14 @@
   
   <!-- Introduction -->
   <section class="intro" id="home">
-    <h1 class="section__title section__title--intro">
-      Bonjour, ici <strong>Yannick Côté</strong>
-    </h1>
-    <p class="section__subtitle section__subtitle--intro">Étudiant Bac Informatique</p>
+    <div class="section__title">
+      <div>
+        <h1 class="section__title--intro">Bonjour,<span></span></h1>
+        <h1 class="section__title--intro">je suis<span></span></h1>
+        <h1 class="section__title--intro"><strong>Yannick Côté</strong><span></span><h1>
+      </div>
+    </div>
+    <p class="section__subtitle section__subtitle--intro">Étudiant BAC Informatique</p>
     <img src="img\moi\moi.jpg" alt="a picture of me" class="intro__img">
   </section>
 
@@ -97,27 +101,30 @@
     <p class="section__subtitle section__subtitle--work">Explorez mes projets et passions!</p>
 
     <div class="portfolio">
+      <!-- Portfolio item 00 -->
+      <a href="pages/project_code.html" class="portfolio__item">
+        <img src="img\code_sq.jpg" alt="" class="portfolio__img">
+      </a>
       <!-- Portfolio item 01 -->
       <a href="pages/project_lightsaber.html" class="portfolio__item">
         <img src="img\lightsaber_sq.jpg" alt="A lightsaber" class="portfolio__img">
       </a>
       <!-- Portfolio item 02 -->
-      <a href="pages/project_arcade.html" class="portfolio__item">
-        <img src="img\arcade_sq.jpg" alt="" class="portfolio__img">
-      </a>
-      <!-- Portfolio item 03 -->
       <a href="pages/project_table.html" class="portfolio__item">
         <img src="img\tactil_desk2_sq.jpg" alt="" class="portfolio__img">
       </a>
-      <!-- Portfolio item 04 -->
+      <!-- Portfolio item 03 -->
       <a href="pages/project_3dprinting.html" class="portfolio__item">
         <img src="img\3d_printing_sq.jpg" alt="" class="portfolio__img">
       </a>
-      <!-- Portfolio item 05 -->
-      <a href="pages/portfolio-item.html" class="portfolio__item">
-        <img src="img\Rectangle 3-4@2x.png" alt="" class="portfolio__img">
+      <!-- Portfolio item 04 -->
+      <a href="pages/project_arcade.html" class="portfolio__item">
+        <img src="img\arcade_sq.jpg" alt="" class="portfolio__img">
       </a>
-      
+      <!-- Portfolio item 05 -->
+      <a href="pages/projet_art.html" class="portfolio__item">
+        <img src="img\art_sq.jpg" alt="" class="portfolio__img">
+      </a>
     </div>
   </section>
 
