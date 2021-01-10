@@ -679,8 +679,6 @@ div.polaroid {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
 .mySlides, .mySlides2 {
