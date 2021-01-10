@@ -679,11 +679,12 @@ div.polaroid {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .mySlides, .mySlides2 {
   display: none;
-  -webkit-overflow-scrolling: touch;
 }
 
 .prev, .next {
@@ -700,8 +701,6 @@ div.polaroid {
   border-radius: 0 3px 3px 0;
   user-select: none;
   background-color: rgba(0, 0, 0, 0.4);
-  -webkit-overflow-scrolling: touch;
-
 }
 
 .prev {
