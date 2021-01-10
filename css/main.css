@@ -667,7 +667,6 @@ div.container{
 
 div.polaroid {
   margin: 2%;
-  width: 80%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
@@ -706,7 +705,7 @@ div.polaroid {
 }
 
 .next {
-  right: 20%;
+  right: 4%;
   border-radius: 3px 0 0 3px;
 }
 
