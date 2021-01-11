@@ -420,7 +420,7 @@ header {
   display: inline-block;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .intro {
     display: grid;
     width: min-content;
@@ -510,7 +510,7 @@ header {
   pointer-events: none;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;
