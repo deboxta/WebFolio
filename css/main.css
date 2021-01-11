@@ -145,6 +145,11 @@ section {
   column-gap: 40px;
 }
 
+.ul_col3 {
+  column-count: 3;
+  column-gap: 40px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -420,7 +425,7 @@ header {
   display: inline-block;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 950px) {
   .intro {
     display: grid;
     width: min-content;
