@@ -505,6 +505,10 @@ header {
   margin: 0 auto;
 }
 
+.about-me__body {
+  text-align: justify;
+}
+
 .about-me__img {
   box-shadow: var(--bs);
   pointer-events: none;
@@ -745,6 +749,41 @@ div.polaroid {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* page index */
+
+.container__index {
+  display: flex;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-bottom: 2%;
+  align-items: center;
+  justify-content: center;
+}
+
+.index {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.index:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.prev-page {
+  background-color: var(--clr-light);
+  color: black;
+  margin-right: 2%;
+}
+
+.next-page {
+  background-color: var(--clr-accent);
+  color: white;
+  margin-left: 2%;
 }
 
 /* ==========================================================================
