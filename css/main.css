@@ -572,7 +572,7 @@ header {
 
 .portfolio__item {
   position: relative;
-  z-index: 100;
+  z-index: 2;
   background: var(--clr-accent);
   overflow: hidden;
 }
@@ -586,7 +586,7 @@ header {
 .portfolio__title {
   pointer-events: none;
   position: absolute;
-  z-index: 1000;
+  z-index: 2;
   opacity: 0;
   margin-right: 20%;
   padding: 10%;
